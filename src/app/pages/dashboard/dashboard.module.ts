@@ -30,6 +30,7 @@ import { PlayerComponent } from './rooms/player/player.component';
 import { TrafficComponent } from './traffic/traffic.component';
 import { TrafficChartComponent } from './traffic/traffic-chart.component';
 import { FormsModule } from '@angular/forms';
+import { FormInputsComponent } from '../forms/form-inputs/form-inputs.component';
 
 @NgModule({
   imports: [
@@ -63,7 +64,7 @@ import { FormsModule } from '@angular/forms';
     PlayerComponent,
     SolarComponent,
     TrafficComponent,
-    TrafficChartComponent,
+    TrafficChartComponent
   ],
 })
 export class DashboardModule { }
